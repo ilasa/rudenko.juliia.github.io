@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 10% 50% 40%;
+    width: 613px;
+    height: 613px;
+    background-color: #f2f2f2;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2, h3, h4 {
+    font-size: 22px;
+}
+
+.box1 {
+    text-align: center;
+}
+
+img {
+    border: #595959 solid 2px;
+}
+
+p {
+    color: #595959;
+}
+
+.box2 {
+    border-top: #C3C1C1 solid 1px;
+    border-bottom: #C3C1C1 solid 1px;
+}
+
+.box3 {
+    border-bottom: #C3C1C1 solid 1px;
+}
+
+.menu span {
+    color: #595959;
+}
+
+.indent {
+    padding-left: 40px;
+}
+
+.link {
+    font-style: italic;
+}
+
+.student {
+    padding-left: 0;
+    font-size: 18px;
+}
