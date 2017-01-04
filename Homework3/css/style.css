@@ -38,10 +38,15 @@ body {
 }
 
 .navigation li {
-    margin-right: 46px;
-    padding: 15px 40px;
     float: left;
+}
+
+.navigation li a {
+    display: block;
+    padding: 15px 40px;
+    border: 1px #575656 solid;
     font-size: 16px;
+    position: relative;
 }
 
 .navigation a {
@@ -49,11 +54,12 @@ body {
     text-decoration: none;
 }
 
-.navigation li:hover {
+.navigation a:hover {
     border-right: 1px #c8c8c8 solid;
     border-left: 1px #c8c8c8 solid;
     background-color: #3b3b3b;
 }
+
 
 main {
     margin-top: 50px;
@@ -115,8 +121,7 @@ footer {
 }
 
 .footer li {
-    margin-right: 60px;
-    padding: 15px 40px;
+    padding: 15px 45px;
     float: left;
 }
 
@@ -125,7 +130,7 @@ footer {
     text-decoration: none;
 }
 
-.copywright:last-child {
+.copyright:last-child {
     margin-right: 40px;
     padding: 15px 0;
     float: right;
