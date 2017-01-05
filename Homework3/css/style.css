@@ -43,10 +43,10 @@ body {
 
 .navigation li a {
     display: block;
+    position: relative;
     padding: 15px 40px;
     border: 1px #575656 solid;
     font-size: 16px;
-    position: relative;
 }
 
 .navigation a {
